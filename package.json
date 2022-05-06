@@ -1,0 +1,24 @@
+{
+  "name": "cicd-testing-1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx mocha --timeout=30000 .\\app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/salmansrabon/cicd-testing-1.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/salmansrabon/cicd-testing-1/issues"
+  },
+  "homepage": "https://github.com/salmansrabon/cicd-testing-1#readme",
+  "dependencies": {
+    "chai": "^4.3.6",
+    "mocha": "^10.0.0"
+  }
+}
